@@ -1,0 +1,9 @@
+spring.application.name=OrderManagement
+server.port = 8084
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgressSQLDialect
+spring.datasource.driver-class-name=org.postgressql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/
+spring.datasource.username = 
+spring.datasource.password =
+spring.jpa.hibernate.format_sql = true
+

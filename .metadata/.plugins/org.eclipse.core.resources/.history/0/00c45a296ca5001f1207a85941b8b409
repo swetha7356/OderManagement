@@ -1,0 +1,9 @@
+package com.example.service;
+
+import com.example.RequestDto.OrderRequestDto;
+
+public interface IOrderService {
+	
+	public OrderRequestDto saveOrder(OrderRequestDto dto);
+
+}
